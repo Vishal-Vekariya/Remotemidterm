@@ -16,6 +16,11 @@ def index():
 def get_students():
     return jsonify(students), 200
 
+@app.route('/health', methods=['GET'])
+def health_check():
+    return jsonify({"status": "healthy"}), 200
+
+
 @app.route('/students/<int:student_id>', methods=['GET'])
 def get_student(student_id):
     student = next((student for student in students if student['id'] == student_id), None)
