@@ -8,12 +8,9 @@ A simple RESTful API built with Flask that supports basic CRUD operations (Creat
 
 ## Table of Contents
 - [Getting Started](#getting-started)
-- [Installation](#installation)
 - [Running the Application](#running-the-application)
 - [API Endpoints](#api-endpoints)
 - [Testing the API](#testing-the-api)
-- [Contributing](#contributing)
-- [License](#license)
 
 ---
 
@@ -85,7 +82,6 @@ GET /students
         "grade": "A",
         "email": "alice@example.com"
     },
-    ...
 ]
 ```
 ### Testing the API
