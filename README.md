@@ -28,9 +28,9 @@ git clone <your-repo-url>
 cd student-api
 ```
 
-###Installation
+### Installation
 
-1.Create a Virtual Environment (optional but recommended)
+1. Create a Virtual Environment (optional but recommended)
 
 ```bash
 python3 -m venv venv
